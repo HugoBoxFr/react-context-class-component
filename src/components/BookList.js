@@ -1,7 +1,7 @@
-import React, { Component, useContext } from 'react'
+import React, { useContext } from 'react'
 import { ThemeContext } from '../context/ThemeContext';
 
-// class version
+// class context version
 // class BookList extends Component {
 //     static contextType = ThemeContext;
 //     render() {
