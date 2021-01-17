@@ -3,9 +3,7 @@ import { ThemeContext } from '../context/ThemeContext';
 
 class Navbar extends Component {
     static contextType = ThemeContext;
-
     render() {
-        console.log(this.context);
         const { isLightTheme, light, dark } = this.context;
         const theme = isLightTheme ? light : dark;
 
