@@ -1,7 +1,6 @@
 import React, { useContext } from 'react'
 import { ThemeContext } from '../context/ThemeContext';
 
-
 // class context version
 // class ThemeToggle extends Component {
 //     static contextType = ThemeContext;
