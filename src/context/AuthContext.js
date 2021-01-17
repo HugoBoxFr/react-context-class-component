@@ -4,10 +4,10 @@ export const AuthContext = createContext();
 
 class AuthContextProvider extends Component {
     state = {
-        isAuthenticate: false
+        isAuthenticated: false
     }
     toggleAuth = () => {
-        this.setState({ isAuthenticate: !this.state.isAuthenticate });
+        this.setState({ isAuthenticated: !this.state.isAuthenticated });
     }
     render() {
         return (
